@@ -5,8 +5,7 @@ Created on Thu Sep  8 15:08:00 2022
 @author: Amin Edraki
 """
 
-from log_mel_spectrogram import log_mel_spectrogram
-from stm_filters import sgbfb
+from utils import log_mel_spectrogram, sgbfb
 import numpy as np
 
 
