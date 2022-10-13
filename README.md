@@ -17,6 +17,9 @@ d = pystgi(clean_speech, degraded_speech, sampling_frequency)
 
 Note that the clean and degraded speech signals must be time-aligned and of the same length. The algorithms only support 10 KHz sampling rate.
 
+## Missing Features
+Voice activity detection is not implemented yet.
+
 ## References
 If you use pywstmi or pystgi, please cite the references [1] and [2], respectively:
 ```
